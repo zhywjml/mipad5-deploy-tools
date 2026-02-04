@@ -16,7 +16,7 @@ echo "安装工具包..."
 pkg i root-repo -y
 apt install sudo parted pv wget gptfdisk e2fsprogs -y || { echo "安装失败"; exit 1; }
 
-LINUX_URL="https://1812853660.v.123pan.cn/1812853660/"
+LINUX_URL="https://1812853660.v.123pan.cn/"
 echo "下载系统文件中..."
 
 # 建议添加检查文件是否已存在，避免重复下载
